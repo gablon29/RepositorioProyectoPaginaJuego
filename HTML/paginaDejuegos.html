@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/paginaDejuegos.css" />
+    <title>Registrate aqui</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+  </head>
+  <h1>Registrate para comenzar</h1>
+  <br>
+  <body class="bodyRegistro">
+    <form class="row g-3">
+      <div class="col-sm-12 col-md-6 col-lg-6">
+        <label for="inputEmail" class="form-label">Correo</label>
+        <input
+          type="email"
+          maxlength="30"
+          minlength="15"
+          required
+          class="form-control"
+          id="inputEmail4"
+        />
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-6">
+        <label for="inputPassword4" class="form-label">Contraseña</label>
+        <input
+          type="password"
+          maxlength="12"
+          minlength="5"
+          required
+          class="form-control"
+          id="inputPassword"
+        />
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-6">
+        <label for="inputAddress" class="form-label">Direccion</label>
+        <input
+          type="text"
+          maxlength="30"
+          minlength="8"
+          class="form-control"
+          id="inputAddress"
+          placeholder="1100 Congreso"
+        />
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-6">
+        <label for="inputAddress2" class="form-label"
+          >Direccion de Trabajo</label
+        >
+        <input
+          type="text"
+          maxlength="30"
+          minlength="8"
+          class="form-control"
+          id="inputAddress2"
+          placeholder="650 Crisostomo Alvarez"
+        />
+      </div>
+      <div class="col-sm-12 col-md-4">
+        <label for="inputCity" class="form-label">Ciudad</label>
+        <input type="text" maxlength="20" class="form-control" id="inputCity" />
+      </div>
+      <div class="col-sm-12 col-md-4">
+        <label for="inputState" class="form-label">Casa o Departamento</label>
+        <select id="inputState" class="form-select">
+          <option selected>Casa</option>
+          <option>Departamento</option>
+        </select>
+      </div>
+      <div class="col-sm-12 col-md-4">
+        <label for="inputZip" class="form-label">Codigo Postal</label>
+        <input type="text" maxlength="5" class="form-control" id="inputZip" />
+      </div>
+      <div class="col-sm-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck" />
+          <label class="form-check-label" for="gridCheck">
+            Todos los campos listos
+          </label>
+        </div>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-success">Registrarme</button>
+      </div>
+    </form>
+    <br />
+    <!-- Aqui empieza el modal -->
+    <button
+      type="button"
+      class="btn btn-primary"
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModal"
+      data-bs-whatever="@mdo"
+    >
+      Iniciar Sesion
+    </button>
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Inicia Sesion</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label"
+                  >Correo electronico</label
+                >
+                <input
+                  type="email"
+                  maxlength="30"
+                  minlength="15"
+                  required
+                  class="form-control"
+                  id="inputEmail2"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="inputPassword4" class="col-form-label"
+                  >Contraseña</label
+                >
+                <input
+                  type="password"
+                  maxlength="12"
+                  minlength="5"
+                  required
+                  class="form-control"
+                  id="inputPassword2"
+                />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-primary">
+              Iniciar Sesion
+            </button>
+            <a href="../HTML/paginaRecuperacion.html">¿Has olvidado los datos de la cuenta?</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

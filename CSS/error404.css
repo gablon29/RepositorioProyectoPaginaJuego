@@ -1,0 +1,20 @@
+.error4{
+    background-image: url(../imagenes/error-404-cual-es-su-significado-655x368.jpg);
+}
+.h1error{
+    text-align: center; color: rgb(255, 255, 255);
+    font-size: 5rem; font-family: Verdana, Geneva, Tahoma, sans-serif; text-shadow: 2px 2px rgb(0, 0, 0);
+}
+.diverror{
+    contain: content; margin-top: 12%;
+}
+.h2error{
+    margin-top: 12%;
+    text-align: center; color: rgb(254, 254, 255);
+    font-size: 3rem; font-family: Verdana, Geneva, Tahoma, sans-serif; text-shadow: 2px 2px rgb(0, 0, 0);
+}
+.botonerror{
+    margin-left: 63%; margin-top: -5%;
+    font-size: 2rem; background-color: rgba(241, 228, 40, 0.795); color: rgba(0, 0, 0, 0.862); 
+    border-radius: 10%;
+}

@@ -1,0 +1,569 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100;300 & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    background-image: linear-gradient(#3f3f37, #d10000);
+}
+
+.parteSuperiorPrimaria {
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.parteSuperiorPrimaria .logo {
+    color: white;
+    font-size: 70px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    text-decoration: none;
+}
+
+.parteSuperiorPrimaria .logoX {
+    color: #990000;
+    font-weight: 800;
+    font-size: 80px; 
+}
+
+.parteSuperiorPrimaria,
+.logo,
+.logoX {
+    -webkit-text-stroke: 2px black;
+}
+
+
+/*---------*\
+PARTE MEDIA
+\*---------*/
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+}
+
+.espacioSeccion {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.espacioSeccion .seccion {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    justify-items: center;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+
+
+.spanParrafo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-weight: 800;
+    font-style: normal;
+
+}
+
+.spanParrafo::after{
+content: attr(data-text);
+position: absolute ;
+font-size: 60px;
+text-shadow: -1px 0 red;
+top: 20%;
+right: 0%;
+color: #990000;
+background-image: linear-gradient(#3f3f37, #d10000);
+overflow: hidden;
+clip: rect(0, 900px, 0, 0);
+animation: noise-anim 2s infinite linear alternate-reverse;
+}
+
+.spanParrafo::before{
+content: attr(data-text);
+position: absolute;
+right: 1%;
+top: 20%;
+text-shadow: 1px 0 blue;
+color: #990000;
+overflow: hidden;
+clip: rect(0, 900px, 0, 0);
+animation: noise-anim-2 3s infinite linear alternate-reverse;
+}
+
+
+@keyframes noise-anim {
+    0% {
+        clip: rect(51px, 9999px, 28px, 0);
+    }
+
+    5% {
+        clip: rect(70px, 9999px, 19px, 0);
+    }
+
+    10% {
+        clip: rect(92px, 9999px, 13px, 0);
+    }
+
+    15% {
+        clip: rect(85px, 9999px, 49px, 0);
+    }
+
+    20% {
+        clip: rect(45px, 9999px, 56px, 0);
+    }
+
+    25% {
+        clip: rect(26px, 9999px, 31px, 0);
+    }
+
+    30% {
+        clip: rect(62px, 9999px, 73px, 0);
+    }
+
+    35% {
+        clip: rect(34px, 9999px, 11px, 0);
+    }
+
+    40% {
+        clip: rect(26px, 9999px, 61px, 0);
+    }
+
+    45% {
+        clip: rect(34px, 9999px, 71px, 0);
+    }
+
+    50% {
+        clip: rect(35px, 9999px, 69px, 0);
+    }
+
+    55% {
+        clip: rect(92px, 9999px, 81px, 0);
+    }
+
+    60% {
+        clip: rect(26px, 9999px, 85px, 0);
+    }
+
+    65% {
+        clip: rect(2px, 9999px, 68px, 0);
+    }
+
+    70% {
+        clip: rect(54px, 9999px, 79px, 0);
+    }
+
+    75% {
+        clip: rect(35px, 9999px, 85px, 0);
+    }
+
+    80% {
+        clip: rect(70px, 9999px, 60px, 0);
+    }
+
+    85% {
+        clip: rect(32px, 9999px, 26px, 0);
+    }
+
+    90% {
+        clip: rect(94px, 9999px, 53px, 0);
+    }
+
+    95% {
+        clip: rect(99px, 9999px, 92px, 0);
+    }
+
+    100% {
+        clip: rect(42px, 9999px, 27px, 0);
+    }
+}
+
+@keyframes noise-anim-2 {
+    0% {
+        clip: rect(21px, 9999px, 49px, 0);
+    }
+
+    5% {
+        clip: rect(27px, 9999px, 52px, 0);
+    }
+
+    10% {
+        clip: rect(21px, 9999px, 70px, 0);
+    }
+
+    15% {
+        clip: rect(65px, 9999px, 25px, 0);
+    }
+
+    20% {
+        clip: rect(24px, 9999px, 10px, 0);
+    }
+
+    25% {
+        clip: rect(61px, 9999px, 64px, 0);
+    }
+
+    30% {
+        clip: rect(34px, 9999px, 47px, 0);
+    }
+
+    35% {
+        clip: rect(46px, 9999px, 93px, 0);
+    }
+
+    40% {
+        clip: rect(46px, 9999px, 9px, 0);
+    }
+
+    45% {
+        clip: rect(67px, 9999px, 36px, 0);
+    }
+
+    50% {
+        clip: rect(72px, 9999px, 20px, 0);
+    }
+
+    55% {
+        clip: rect(79px, 9999px, 26px, 0);
+    }
+
+    60% {
+        clip: rect(13px, 9999px, 87px, 0);
+    }
+
+    65% {
+        clip: rect(10px, 9999px, 25px, 0);
+    }
+
+    70% {
+        clip: rect(85px, 9999px, 11px, 0);
+    }
+
+    75% {
+        clip: rect(94px, 9999px, 35px, 0);
+    }
+
+    80% {
+        clip: rect(50px, 9999px, 86px, 0);
+    }
+
+    85% {
+        clip: rect(74px, 9999px, 67px, 0);
+    }
+
+    90% {
+        clip: rect(1px, 9999px, 40px, 0);
+    }
+
+    95% {
+        clip: rect(3px, 9999px, 48px, 0);
+    }
+
+    100% {
+        clip: rect(90px, 9999px, 23px, 0);
+    }
+}
+/*----------*\
+PARTE ARGUMENTO
+\*----------*/
+
+.recuadrogeneral {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+}
+.recuadrosecundario {
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    position: center;
+    height: auto;
+    margin: 0 10px 0 10px;
+
+}
+.recuadroTexto {
+    width: 400px;
+    height: auto;
+    text-align: center;
+}
+.recuadroTexto h2 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.recuadroTexto p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.recuadroImg {
+    justify-content: center;
+    width: 300px;
+    
+    height: 400px;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.recuadroImg img {
+    margin-top: 30px;
+}
+ .imagenUno {
+    position: relative;
+    left: -50px;
+    opacity: 0;
+ }
+.efecto-imagenUno{
+    left: 0px;
+    opacity: 1;
+    transition: 1s linear;
+}
+.imagenDos {
+    transform: scale(0.5);
+    opacity: 0;
+ }
+.efecto-imagenDos{
+    transform: scale(1);
+    opacity: 1;
+    transition: 1s linear;
+}
+.imagenTres{
+    position: relative;
+    bottom: -80px;
+    opacity: 0;
+}
+.efecto-imagenTres{
+    opacity: 1;
+    bottom: 0;
+    transition: 1s linear;
+}
+.imagenCuatro {
+    transform: scale(0.5);
+    opacity: 0;
+}
+.efecto-imagenCuatro {
+    transform: scale(1);
+    opacity: 1;
+    transition: 1s linear;
+}
+
+
+
+
+/*----------*\
+PARTE IMG
+\*----------*/
+.contenedor {
+    position: relative;
+    left: -50px;
+    opacity: 0;
+ }
+.efecto-contenedor{
+    left: 0px;
+    opacity: 1;
+    transition: 1s linear;
+}
+ 
+.contenedor {
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    border: #212121 5px solid;
+}
+.contenedorTitulo {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    border: #212121 solid 5px;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorTitulo .tituloDelEquipo {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.contenedor .contenedorsecundario{
+    background-color: #212121;
+    margin: 50px 50px 50px 50px;
+    width: 300px;
+    height: 300px;
+}
+.contenedorsecundario img {
+    border-radius: 50%;
+    border: 5px #990000 solid;
+}
+.contenedorsecundario .claseDetalle {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+
+}
+
+
+/*---------------*\
+@MEDIA 
+\*---------------*/
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .conteiner {
+        display: flex;
+        width: 100%;
+    }
+    
+    .espacioSeccion .seccion{
+        font-size: 25px;
+        height: auto;
+        width: 300px;
+        
+    } 
+    .spanParrafo::after{
+        font-size: 20px;
+        top: 60px;
+        right: 25px;
+    }
+    .spanParrafo::before{
+        top: 50px;
+        right: 20px;
+    }
+    .recuadrogeneral{
+        width: 100%;
+        height: auto;
+        
+    }
+    .recuadroTexto{
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .recuadroTexto h2 {
+        font-size: 20px;
+    }
+    .recuadroTexto p{
+        font-size: 15px;
+    }
+    
+    .recuadrosecundario{
+        position: relative;
+        width: 100%;
+        height: 300px;
+    }
+    .recuadroImg {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        bottom: 65%;
+    }
+    .recuadroImg img {
+        width: 60px;
+        height: 60px;
+        margin: 0;
+    }
+    
+    .recuadroImg .imagenUno{
+        margin-right: 120px;
+    }
+    
+    .recuadroTexto {
+        position: relative;
+        top: 10%;
+    }
+    
+}
+@media (max-width: 300px) {
+    
+    
+    .parteSuperiorPrimaria{
+        margin-top: 20px;
+    }
+
+
+    .parteSuperiorSecundaria{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+    }
+    
+    .parteSuperiorPrimaria .logo{
+        font-size: 50px;
+    }
+    .parteSuperiorPrimaria .logoX{
+        font-size: 50px;
+    }
+
+    .spanParrafo::after{
+        font-size: 40px;
+        top: 90px;
+        right: 120px;
+    }
+    .spanParrafo::before{
+        top: 90px;
+        right: 120px;
+    }
+    
+    .recuadrogeneral {
+        width: 100%;
+    }
+
+    .recuadrosecundario {
+        width: 100%;
+    }
+    .recuadroTexto{
+        width: 100%;
+    }
+
+
+    .recuadroImg {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    
+    .recuadroImg img {
+        width: 30px;
+        height: 30px;
+        margin-bottom: 20px;
+    }
+
+}
+

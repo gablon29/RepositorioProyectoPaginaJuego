@@ -8,6 +8,7 @@
 }
 body {
     background-image: linear-gradient(#3f3f37, #d10000);
+    margin: 5px;
 }
 
 .parteSuperiorPrimaria {
@@ -61,7 +62,7 @@ PARTE MEDIA
 
 .espacioSeccion .seccion {
     position: relative;
-    height: 100%;
+    height: auto;
     width: 100%;
     text-align: center;
     justify-items: center;
@@ -289,7 +290,9 @@ PARTE ARGUMENTO
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 700px;
+    height: auto;
+    padding: 0;
+    margin: 0;
 }
 .recuadrosecundario {
     display:flex ;
@@ -303,9 +306,10 @@ PARTE ARGUMENTO
 
 }
 .recuadroTexto {
-    width: 400px;
+    width: 100%;
     height: auto;
     text-align: center;
+    margin: 0px 100px 0px 100px;
 }
 .recuadroTexto h2 {
     font-size: 60px;

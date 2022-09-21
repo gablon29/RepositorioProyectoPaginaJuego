@@ -74,7 +74,8 @@
 
 .container-navbar {
     margin-top: -10px;
-    margin-bottom: -10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: #D10000;
     position: fixed;
     top: 10px;

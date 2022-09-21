@@ -7,12 +7,12 @@
     font-family: 'Open Sans', sans-serif;
 }
 body {
-    background-image: linear-gradient(#3f3f37, #d10000);
-    margin: 5px;
+    margin: 0px;
+    padding: 0;
 }
 
 .parteSuperiorPrimaria {
-    height: 100px;
+    height: auto;
     width: 100%;
     align-items: center;
     text-align: center;
@@ -30,7 +30,7 @@ body {
 .parteSuperiorPrimaria .logoX {
     color: #990000;
     font-weight: 800;
-    font-size: 80px; 
+    font-size: 70px; 
 }
 
 .parteSuperiorPrimaria,
@@ -78,7 +78,7 @@ PARTE MEDIA
 
 .spanParrafo {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: black;
+    color: #990000;
     font-weight: 800;
     font-style: normal;
 
@@ -312,10 +312,12 @@ PARTE ARGUMENTO
     margin: 0px 100px 0px 100px;
 }
 .recuadroTexto h2 {
+    color: #990000;
     font-size: 60px;
     margin-bottom: 10px;
 }
 .recuadroTexto p {
+    color: beige;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
@@ -376,6 +378,7 @@ PARTE ARGUMENTO
 
 
 
+
 /*----------*\
 PARTE IMG
 \*----------*/
@@ -391,32 +394,33 @@ PARTE IMG
 }
  
 .contenedor {
-    background-color: #212121;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
     align-content: center;
     align-items: center;
-    border: #212121 5px solid;
 }
 .contenedorTitulo {
     display: flex;
     width: 100%;
     text-align: center;
     height: 100px;
-    border: #212121 solid 5px;
     justify-content: center;
     align-items: center;
 }
 .contenedorTitulo .tituloDelEquipo {
+    color: beige;
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 
+.logoXdos {
+    color: #990000;
+}
+
 .contenedor .contenedorsecundario{
-    background-color: #212121;
     margin: 50px 50px 50px 50px;
     width: 300px;
     height: 300px;

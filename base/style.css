@@ -88,14 +88,7 @@
 #Reset
 \*--------------------*/
 
-*,
-*::before,
-*::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 
-}
 
 li {
     list-style: none;
@@ -108,17 +101,11 @@ a {
 }
 
 a,
-img,
-span,
 time,
 input,
 button,
 ion-icon {
     display: block;
-}
-
-img {
-    height: auto;
 }
 
 input,

@@ -1,0 +1,40 @@
+.body {
+  margin: 0;
+  padding: 0;
+  background-color: #2f52e0;
+  justify-content: center;
+}
+
+.img {
+  margin-left: -10px;
+}
+
+.text-center {
+  font-family: "Press Start 2P", cursive;
+  font-size: 100px;
+}
+
+.text-P {
+  font-family: "Press Start 2P", cursive;
+  font-size: 30px;
+}
+
+.text-P1 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 20px;
+}
+
+.hiperVinculo {
+  color: antiquewhite;
+}
+
+@media (max-width: 600px) {
+  .container {
+    min-width: 300px;
+    max-height: 500px;
+  }
+
+  .text-center {
+    min-width: 350px;
+  }
+}

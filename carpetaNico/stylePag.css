@@ -2,9 +2,12 @@
 .body {
    
     background-color:hsl(0, 0%, 16%);
-    
-    
 }
+
+nav {
+    background-color: hsl(0, 0%, 16%);
+}
+
 .card-body{
     background-color:#2F52E0;
     width: 200px;

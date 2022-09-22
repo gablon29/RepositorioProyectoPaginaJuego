@@ -4,12 +4,20 @@
     background-color:hsl(0, 0%, 16%);
 }
 
-nav {
-    background-color: hsl(0, 0%, 16%);
+.container-navbar {
+   margin-top: -10px;
+   
+padding-top: 10px;
+   padding-bottom: 10px;
+   background-color: #d10000;
+   position: fixed;
+   top: 10px;
+   left: 0;
+   z-index: 9999;
 }
 
 .card-body{
-    background-color:#2F52E0;
+    background-color:#535971;
     width: 200px;
 }
 .card-text{
@@ -42,6 +50,7 @@ nav {
 .pacman {
     height: 60px;
     width: 60px;
+    
     border-top: 100px solid yellow ;
     border-right: 100px  solid transparent;
     border-bottom:100px solid yellow ;

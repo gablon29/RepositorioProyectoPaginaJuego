@@ -7,6 +7,7 @@
 }
 .card-body{
     background-color:#2F52E0;
+    width: 200px;
 }
 .card-text{
     color:#ffffff;
@@ -70,6 +71,13 @@
     border-bottom: 100px solid yellow;
     border-left: 100px solid yellow;
     animation: rotate .5s infinite alternate ;
+}
+.contenedorJuegos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
 }
 
 @keyframes rotate {
